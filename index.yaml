@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  sda-se-karma:
+  - apiVersion: v2
+    appVersion: 0.84.0
+    created: "2021-05-04T16:11:56.402801+02:00"
+    description: A Helm chart for Karma - an UI for Prometheus Alertmanager extended
+      for using a secret as config source
+    digest: b54cff2afcb6ad72a8133484bbcb5606004f44b07088c018df2393e433a85894
+    home: https://github.com/prymitive/karma
+    maintainers:
+    - email: david@davidkarlsen.com
+      name: davidkarlsen
+    - email: l.mierzwa@gmail.com
+      name: prymitive
+    name: sda-se-karma
+    sources:
+    - https://hub.docker.com/r/lmierzwa/karma/
+    - https://github.com/prymitive/karma
+    type: application
+    urls:
+    - sda-se-karma-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-04T16:11:56.401916+02:00"
