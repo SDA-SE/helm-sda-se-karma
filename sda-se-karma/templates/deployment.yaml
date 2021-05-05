@@ -89,7 +89,7 @@ spec:
         configMap:
           name: {{ .Release.Name }}-config
       {{- else if .Values.secureConfigMap.enabled }}
-      - name: karma-secure-config
+      - name: karma--config-secure
         secret:
           secretName: {{ .Release.Name }}-secret
       {{- end }}
